@@ -1,4 +1,4 @@
-## Project Name: __Akan Name Generator__
+## Project Name: Akan Name Generator
 ____
 ## Project Description
 ____
@@ -23,9 +23,9 @@ ____
 * [JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 ## Setup Process
 ____
-* [Click here]() to access the site or use this link ("link") to access the site.
+* [Click here](https://engineer237.github.io/Akan-Name-Generator/) to access the site or use this link https://engineer237.github.io/Akan-Name-Generator/to access the site using any browser of choice.
 * To run the site locally simply follow the following:
-    1. git clone 
+    1. git clone git@github.com:engineer237/Akan-Name-Generator.git
     2. In the folder, run index.html file in the browser of choice.
     
 ## Contacts
