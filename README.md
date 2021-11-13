@@ -23,7 +23,7 @@ ____
 * [JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 ## Setup Process
 ____
-* [Click here](https://engineer237.github.io/Akan-Name-Generator/) to access the site or use this link https://engineer237.github.io/Akan-Name-Generator/to access the site using any browser of choice.
+* [Click here](https://engineer237.github.io/Akan-Name-Generator/) to access the site or use this link https://engineer237.github.io/Akan-Name-Generator/ access the site using any browser of choice.
 * To run the site locally simply follow the following:
     1. git clone git@github.com:engineer237/Akan-Name-Generator.git
     2. In the folder, run index.html file in the browser of choice.
