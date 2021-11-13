@@ -10,7 +10,7 @@ body{
     /* margin-bottom: 4rem; */
     font-family: sans-serif;
 }
-h2 {
+.title-2 {
     text-align: center;
     color: hsl(209, 61%, 16%); 
     font-family: sans-serif;
