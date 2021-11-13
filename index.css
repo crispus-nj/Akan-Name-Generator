@@ -36,7 +36,9 @@ body{
     background-color: hsl(205, 78%, 60%);
     margin-bottom: 1rem;
 }
-
+.tip {
+    color: #FF6B63;
+}
 p {
     color: hsl(209, 61%, 16%);
     line-height: 1.5rem;
