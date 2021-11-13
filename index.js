@@ -1,14 +1,14 @@
 // data in array
 let femaleAkanNames = [
     "Akosua",
+    "Adwoa",
     "Abenaa",
-    "Kwabena",
     "Akua",
     "Yaa",
     "Afua",
     "Ama",
 ];
-let makeAkanName = ["Kwasi", "Kwadwo", "kwaku", "Yaw", "Kofi", "Kwame"];
+let maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 let dayOfTheWeek = [
     "Sunday",
     "Monday",
@@ -18,6 +18,8 @@ let dayOfTheWeek = [
     "Friday",
     "Saturday",
 ];
+let user_answer = document.querySelector(".user-answer") 
+// console.log(user_answer)
 let buttonOnsubmit = document.getElementById("btn-submit");
 buttonOnsubmit.addEventListener("click", (e) => {
     e.preventDefault();
@@ -31,11 +33,27 @@ generateName = (e) => {
     let dateOfBirth = document.getElementById("date").value;
     let gender = document.getElementById("gender").value;
     let dateNumber = new Date(dateOfBirth).getDay()
+    // user_answer.innerHTML()
     // console.log(name, dateNumber, gender);
     if(gender == "male"){
-        console.log(`Your name is ${name} and you were born on ${dayOfTheWeek[dateNumber]} and your akan name is ${makeAkanName[dateNumber]}`)
+        
+      user_answer.innerHTML = `<div>
+      <h4>Name: ${name} </h4>
+      <h4>Date Of Birth: ${dateOfBirth}</h4>
+      <h4>Gender: ${gender} </h4>
+      <h4><strong>Day of the week born</strong>: ${dayOfTheWeek[dateNumber]}</h4>
+      <h4><strong>Akan Name</strong>: ${maleAkanNames[dateNumber]}</h4>
+
+  </div>`
     }else{
-        console.log(`Your name is ${name} and you were born on ${dayOfTheWeek[dateNumber]} and your akan name is ${femaleAkanNames[dateNumber]}`)
+       user_answer.innerHTML = `<div>
+       <h4>Name: ${name} </h4>
+       <h4>Date Of Birth: ${dateOfBirth}</h4>
+       <h4>Gender: ${gender} </h4>
+       <h4><strong>Day of the week born</strong>: ${dayOfTheWeek[dateNumber]}</h4>
+       <h4><strong>Akan Name</strong>: ${maleAkanNames[dateNumber]}</h4>
+
+   </div>`        // console.log(`Your name is ${name} and you were born on ${dayOfTheWeek[dateNumber]} and your akan name is ${femaleAkanNames[dateNumber]}`)
     }
 
 };
