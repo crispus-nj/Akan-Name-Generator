@@ -44,3 +44,7 @@ p {
     /* width: 550px; 
     margin: 1rem auto; */
 }
+
+.form-input {
+    margin-bottom: 2rem;
+}
