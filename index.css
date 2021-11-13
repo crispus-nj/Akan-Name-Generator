@@ -1,9 +1,14 @@
+body{
+    background-color: hsl(210, 36%, 96%);
+}
+
 .title {
     /* margin-right: auto;
     margin-left: auto; */
     text-align: center;
     color: hsl(209, 61%, 16%);
     margin-bottom: 4rem;
+    font-family: sans-serif;
 }
 
 .underline {
