@@ -1,0 +1,15 @@
+.title {
+    /* margin-right: auto;
+    margin-left: auto; */
+    text-align: center;
+    color: hsl(209, 61%, 16%);
+    margin-bottom: 4rem;
+}
+
+.underline {
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0.25rem;
+    background-color: hsl(205, 78%, 60%);
+}
