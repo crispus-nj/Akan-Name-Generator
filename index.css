@@ -9,6 +9,9 @@ body{
     color: hsl(209, 61%, 16%);
     /* margin-bottom: 4rem; */
     font-family: sans-serif;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
 }
 .title-2 {
     text-align: center;
