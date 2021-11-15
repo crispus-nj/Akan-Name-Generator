@@ -3,7 +3,7 @@ let dayOfTheWeek = [
     "Sunday",
     "Monday",
     "Tuesday",
-    "Wednsday",
+    "Wednesday",
     "Thursday",
     "Friday",
     "Saturday",
