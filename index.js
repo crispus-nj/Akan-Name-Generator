@@ -43,6 +43,9 @@ generateName = (e) => {
     e.preventDefault();
     // user_answer.innerHTML()
     // console.log(name, dateNumber, gender);
+    if(gender == "" || dateOfBirth == ""){
+        alert("please make sure you details are correct")
+    }
     if (gender === "male") {
         return (user_answer.innerHTML = `
         <div>
